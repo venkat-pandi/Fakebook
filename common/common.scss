@@ -1,5 +1,10 @@
 @import "common/foundation/variables";
 @import "variables";
+@import "sidebar";
+
+.topic-list-header {
+  display: none;
+}
 
 .alert.alert-info {
   margin-bottom: 10px;
@@ -554,6 +559,14 @@ body {
 
 .topic-map {
   border-radius: 4px;
+}
+
+.topic-avatar {
+  height: unset;
+}
+
+.topic-post.sticky-avatar .topic-avatar {
+  margin-bottom: 0;
 }
 
 // Suggested
